@@ -18,7 +18,6 @@ InModuleScope awp {
             It 'Parameter Tests' {
                 { Test-AWPPreReq } | Should Not Throw
                 { Test-AWPPreReq -cred } | Should throw
-                { Test-AWPPreReq -computerName 'not-exists' -ErrorAction Stop } | Should throw
             }
         }
         Context 'AWP Agent PreReq Passes' {
