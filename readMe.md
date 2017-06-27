@@ -1,5 +1,7 @@
 # Auto Task Workplace Agent Management
 
+![Build Status](https://bentaylorwork.visualstudio.com/_apis/public/build/definitions/af0c459d-b0db-4489-89b7-baa4632c1f5c/14/badge)
+
 ## Overview
 A powershell module to aide with deployment and management of Auto Task Workplace Agents.
 

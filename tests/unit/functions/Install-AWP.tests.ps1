@@ -1,3 +1,8 @@
+if(-not (Get-Module awp)) {
+  $here = (Split-Path -Parent $MyInvocation.MyCommand.Path).Replace('tests\unit\functions', '')
+  Import-Module (Join-Path $here 'awp.psd1') 
+}
+
 InModuleScope awp {
     Describe 'Install-AWP' {
         $testPath = "TestDrive:\awpInstall.exe"
